@@ -4,7 +4,7 @@ import { trpc } from '@/app/trpc/client';
 
 export const ClientHome = () => {
 
-  const [data] = trpc.hello.useSuspenseQuery({ text: 'Kenster52' })
+  const [data] = trpc.hello.useSuspenseQuery({ text: 'Kenster5' })
 
   return (
     <div>
