@@ -8,6 +8,13 @@
       "when": 1744696041826,
       "tag": "0000_youthful_skrulls",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1744855097753,
+      "tag": "0001_special_mathemanic",
+      "breakpoints": true
     }
   ]
 }
