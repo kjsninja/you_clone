@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "ngrok": "ngrok http http://localhost:3000",
+    "drizzle:migrate": "bunx drizzle-kit generate",
+    "drizzle:push": "bunx drizzle-kit push"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.15.0",
